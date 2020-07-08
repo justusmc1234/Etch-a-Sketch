@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background-image: url("bedroomwall/bedroomwall.png");
+    background-size: cover;
+
+}
+
+
+#title{
+    text-align: center;
+    color:#e60202;
+    position: relative;
+    padding: 5vh;
+    font-size: 5vh;
+}
+
+
+#draw{
+    position: relative;
+    width: 720px;
+    height: 550px;
+    margin:  auto;
+    border: solid 20px 	#e60202 ;
+    display: grid;
+    top: 0px;
+}
+
+#button-container{
+    position: relative;
+    width: 760px;
+    margin: auto;
+    bottom: 0px;
+    height: 50px;
+    background:#e60202  ;
+}
+
+#reset{
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+}
+
+#color-change{
+    position: absolute;
+    background-color: rgb(245, 239, 239);
+    border-radius: 50%;
+    height: 50px;
+    width: 100px;
+    left: 0px;
+}
+
+#reset{
+    position: absolute;
+    background-color:  rgb(245, 239, 239);
+    border-radius: 50%;
+    height: 50px;
+    width: 100px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#grid-size{
+    position: absolute;
+    background-color:  rgb(245, 239, 239);
+    height: 50px;
+    width: 100px;
+    left: 42%;
+}
